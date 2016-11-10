@@ -11,7 +11,7 @@ header{
 	/*text-align:center;*/
 }
 
-.burgerPic{
+.burgerImg{
 	height:100%;
 	width:100%;
 }
@@ -26,7 +26,7 @@ header{
 	color:black;
 }
 
-#readyBurgerBox
+#burgerBox
 {
 	color: black;
 	background-color: #ffffcc;
