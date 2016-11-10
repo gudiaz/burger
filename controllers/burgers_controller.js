@@ -12,9 +12,9 @@ router.get('/', function (req, res) {
 
 router.get('/burgers', function (req, res) {
 	burger.selectAll(function (data) {
-		var hbsObject = { burgers: data };
-		console.log(hbsObject);
-		res.render('index', hbsObject);
+		var hbObject = { burgers: data };
+		console.log(hbObject);
+		res.render('index', hbObject);
 	});
 });
 
