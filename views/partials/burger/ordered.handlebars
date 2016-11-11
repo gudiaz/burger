@@ -1,11 +1,10 @@
 <h2>Burger Selection</h2>
-<br>
+<br/>
 <ul>
   {{#each burgers}}
   	{{#unless this.devoured}}
-     <li class="orderedBox">
-        {{this.burger_name}}
-        {{>allform/update}}
+     <li class ="selection">
+    	{{this.burger_name}} {{>allform/update}}
      </li> 
     {{/unless}}
   {{/each}}

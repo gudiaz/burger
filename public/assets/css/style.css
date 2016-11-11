@@ -2,41 +2,41 @@ body {
     font-family: 'Times New Roman', 'Verdana', 'Helvetica', sans-serif;
     margin: 10px auto;
     text-align: left;
-    font-size: 25px;
-    background-color: #a8f600;
+    font-size: 18px;
 }
 
 h1 {
     font-family: 'Kaushan Script', cursive;
-    color: orange;
-    font-size: 200%;
-    padding-bottom: 25px;
+    font-size: 50px;
+    padding-bottom: 20px;
 }
 
 header {
-	font-size: 50px;
-	text-align:center;
+	font-size: 100px;
+	text-align: center;
+}
+
+ul {
+	color: black;
 }
 
 .burgerImg {
-	height: 400px;
-	width: 276px;
+	height: 276px;
+	width: 400px;
 }
 
-#orderedBox {
+.selectionBox {
 	color: black;
-	background-color: #b4905f;
-	padding-right:10px;
+	padding-right: 10px;
 	padding-left: 10px;
 	padding-bottom: 5px;
 	padding-top: 5px;	
 }
 
-#devouredBox {
+.devouredBox {
 	color: red;
-	background-color: #b4905f;
-	padding-right:10px;
-	padding-left: 10px;
+	padding-right: 10px;
+	padding-left: 100px;
 	padding-bottom: 5px;
 	padding-top: 5px;	
 }
