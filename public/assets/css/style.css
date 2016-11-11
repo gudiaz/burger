@@ -1,15 +1,20 @@
 body {
     font-family: 'Times New Roman', 'Verdana', 'Helvetica', sans-serif;
-    color: black;
     margin: 10px auto;
     text-align: left;
     font-size: 25px;
     background-color: #a8f600;
 }
 
-.header {
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: orange;
+    font-size: 200%;
+    padding-bottom: 25px;
+}
+
+header {
 	font-size: 50px;
-  	color: Brown;
 	text-align:center;
 }
 
@@ -18,22 +23,13 @@ body {
 	width: 276px;
 }
 
-#btnOrder,
-#btnDevour {
-	color:black;
-}
-
-#burgerName {
-	color:black;
-}
-
 #orderedBox {
 	color: black;
 	background-color: #b4905f;
 	padding-right:10px;
 	padding-left: 10px;
-	padding-bottom: 3px;
-	padding-top: 3px;	
+	padding-bottom: 5px;
+	padding-top: 5px;	
 }
 
 #devouredBox {
@@ -41,6 +37,6 @@ body {
 	background-color: #b4905f;
 	padding-right:10px;
 	padding-left: 10px;
-	padding-bottom: 3px;
-	padding-top: 3px;	
+	padding-bottom: 5px;
+	padding-top: 5px;	
 }
