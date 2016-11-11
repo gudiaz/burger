@@ -7,7 +7,7 @@ var burger = require('../models/burger.js');
 var path = require('path');
 
 router.get('/', function (req, res) {
-	res.redirect('/burgers');
+	res.redirect('/');
 });
 
 router.get('/burgers', function (req, res) {
@@ -18,13 +18,13 @@ router.get('/burgers', function (req, res) {
 	});
 });
 
-router.post('/burgers/create', function (req, res) {
+router.post('/create', function (req, res) {
 	burger.insertOne(['burger_name', 'devoured'], [req.body.burger_name, false], function () {
 		res.redirect('/burgers');
 	});
 });
 
-router.put('/burgers/update/:id', function (req, res) {
+router.put('/update/:id', function (req, res) {
 	var condition = 'id = ' + req.params.id;
 
 	console.log('condition', condition);
@@ -34,7 +34,7 @@ router.put('/burgers/update/:id', function (req, res) {
 	});
 });
 
-router.delete('/burgers/delete/:id', function (req, res) {
+router.delete('/delete/:id', function (req, res) {
 	var condition = 'id = ' + req.params.id;
 
 	burger.deleteOne(condition, function () {
